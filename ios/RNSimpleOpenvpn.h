@@ -19,7 +19,7 @@
 
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventEmitter.h>
-@import NetworkExtension;
+#import <NetworkExtension/NetworkExtension.h>
 
 @interface RNSimpleOpenvpn : RCTEventEmitter <RCTBridgeModule>
 
